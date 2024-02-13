@@ -3,9 +3,8 @@ import { StyleSheet } from 'react-native';
 const commonStyles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#fff',
-        alignItems: 'center',
         justifyContent: 'center',
+        alignItems: 'center',
     },
     text: {
         fontSize: 18, 
@@ -41,10 +40,27 @@ const commonStyles = StyleSheet.create({
         height: 60,
         borderRadius: 10,
     },
+    recipeDetailsImage: {
+        marginTop: 10,
+        width: '95%',
+        height: 200,
+        resizeMode: 'cover',
+        borderRadius: 10,
+    },
+    recipeTitle: {
+        paddingTop: 20,
+        paddingLeft: 20,
+        fontSize: 24,
+        fontWeight: 'bold',
+    },
     recipeItemTitle: {
         marginLeft: 10,
         fontSize: 16,
         padding: 10,
+    },
+    recipeDetailsText: {
+        marginLeft: 25,
+        fontSize: 16,
     },
     input: {
         height: 40,
@@ -58,6 +74,7 @@ const commonStyles = StyleSheet.create({
         fontWeight: 'bold',
         marginTop: 16,
         marginBottom: 8,
+        marginLeft: 20,
     },
     link: {
         color: 'blue',
